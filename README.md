@@ -1,4 +1,4 @@
-# Valentine's Day Project
+# WYGOWM Project
 
 ## Overview
 
