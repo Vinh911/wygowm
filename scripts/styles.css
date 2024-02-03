@@ -1,3 +1,7 @@
+html {
+  background-color: #fcfbfb;
+}
+
 button {
   display: inline-block;
   width: 100px;
@@ -6,17 +10,23 @@ button {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  margin: 0 10px; /* Fügt einen Abstand zwischen den Buttons hinzu */
+  margin: 0 10px;
+  color: #aa6a72;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 h1 {
+  font-family: Comic Sans MS;
   text-align: center;
+  color: #b17f86;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 
 #buttonContainer {
