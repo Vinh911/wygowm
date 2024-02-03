@@ -1,3 +1,26 @@
-#noButton {
-  position: absolute;
+button {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  background-color: #feb6c0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 0 10px; /* Fügt einen Abstand zwischen den Buttons hinzu */
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
