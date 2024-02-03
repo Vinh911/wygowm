@@ -1,9 +1,11 @@
 var noButton = document.getElementById('noButton');
 var yesButton = document.getElementById('yesButton');
+var buttonWidth = noButton.offsetWidth;
+var buttonHeight = noButton.offsetHeight;
 
 function moveNoButton() {
-  var x = Math.floor(Math.random() * window.innerWidth);
-  var y = Math.floor(Math.random() * window.innerHeight);
+  var x = Math.floor(Math.random() * (window.innerWidth - buttonWidth));
+  var y = Math.floor(Math.random() * (window.innerHeight - buttonHeight)); 
 
   // Update the button's position
   noButton.style.left = x + 'px';
